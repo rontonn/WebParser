@@ -1,0 +1,27 @@
+<h1>Listing Top WindowsPhone games</h1>
+ 
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>Title</th>
+    <th>Downloads</th>
+    <th>Price</th>
+    <th>Comments</th>
+  </tr>
+ 
+  <% @windowsphone.each do |g| %>
+    <tr>
+      <td><%= g.rank %></td>
+      <td><%= g.title %></td>
+      <td><%= g.downloads %></td>
+      <td><%= g.price %></td>
+      <td><%= g.comments %></td>
+    </tr>
+  <% end %>
+</table>
+<p>
+<%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %>
+</p>
+<p>
+<%= link_to "Back to WebParser for WindowsPhone games", wingames_path, class: "btn btn-large btn-primary" %>
+</p>

@@ -1,0 +1,27 @@
+<h1>Listing Top Ipad games</h1>
+ 
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>Title</th>
+    <th>Downloads</th>
+    <th>Price</th>
+    <th>Comments</th>
+  </tr>
+ 
+  <% @ipad.each do |i| %>
+    <tr>
+      <td><%= i.rank %></td>
+      <td><%= i.title %></td>
+      <td><%= i.downloads %></td>
+      <td><%= i.price %></td>
+      <td><%= i.comments %></td>
+    </tr>
+  <% end %>
+</table>
+<p>
+<%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %>
+</p>
+<p>
+<%= link_to "Back to WebParser for Ipad games", ipadgames_path, class: "btn btn-large btn-primary" %>
+</p>

@@ -1,0 +1,27 @@
+<h1>Listing Top Android games</h1>
+ 
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>Title</th>
+    <th>Downloads</th>
+    <th>Price</th>
+    <th>Comments</th>
+  </tr>
+ 
+  <% @android.each do |a| %>
+    <tr>
+      <td><%= a.rank %></td>
+      <td><%= a.title %></td>
+      <td><%= a.downloads %></td>
+      <td><%= a.price %></td>
+      <td><%= a.comments %></td>
+    </tr>
+  <% end %>
+</table>
+<p>
+<%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %>
+</p>
+<p>
+<%= link_to "Back to WebParser for Android games", andrgames_path, class: "btn btn-large btn-primary" %>
+</p>

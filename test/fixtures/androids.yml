@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  rank: 1
+  title: MyString
+  downloads: MyString
+  price: MyString
+  comments: MyText
+
+two:
+  rank: 1
+  title: MyString
+  downloads: MyString
+  price: MyString
+  comments: MyText

@@ -1,0 +1,14 @@
+<h1>WebParser for WindowsPhone games!</h1>
+
+<p>
+  The pre-defined algorithm will  be launched if you press the button below.
+</p>
+
+ <%= form_for :windowsphone, url: windowsphones_path do |f| %>
+
+    <p>
+      <%= f.submit "WebParsing for WindowsPhone games", class: "btn btn-large btn-primary"%>
+   </p>
+  <% end %>
+
+<%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %>
