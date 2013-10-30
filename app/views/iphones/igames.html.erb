@@ -1,14 +1,31 @@
-<h1>WebParser for Iphone games!</h1>
+<!DOCTYPE html>
+<head>
+  <link type="text/css" href="app\assets\stylesheets\homepage.css.scss" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
+</head>
 
-<p>
-  The pre-defined algorithm will  be launched if you press the button below.
-</p>
+<body>
+	<h1>WebParser for Iphone games!</h1>
 
- <%= form_for :iphone, url: iphones_path do |f| %>
+	<div id="games">
+	<p>
+  		The pre-defined algorithm will  be launched if you press the button below.
+	</p>
+
+ 	<%= form_for :iphone, url: iphones_path do |f| %>
 
     <p>
-      <%= f.submit "WebParsing for Iphone games", class: "btn btn-large btn-primary"%>
-   </p>
-  <% end %>
+      	<%= f.submit "WebParsing for Iphone games", class: "btn btn-large btn-primary"%>
+   	</p>
+  	<% end %>
+  	</div>
 
-<%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %>
+	<div class="license">
+		<h4>All rigths reserved to Anton Romanov(c)</h4>
+  		<h3>
+    		<button><%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %></button>
+  		</h3>
+	</div>
+</body>

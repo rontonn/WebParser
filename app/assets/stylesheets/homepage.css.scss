@@ -1,3 +1,122 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+	
+body {
+  font-family: helvetica, sans-serif;
+  background: #C0C0C0;
+}
+
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 4em;
+	text-align: center;
+}
+
+span {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+}
+
+a {
+	color: #DEB887;
+}
+
+div {
+
+	font-family: 'Montaga', serif;
+	line-height: 2em;
+  	height: 220px;
+  	position: relative;
+  	margin: 15px;
+  	border-radius: 12px;
+  	padding: 5px;
+}
+
+p {
+  	color: rgba(255,255,255,1);
+  	background: black;
+  	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	padding: 10px;
+  	line-height: 26px;
+  	text-align: justify;
+  	position: absolute;
+  	bottom: 0;
+  	margin: 0;
+  	width: 96%;
+}
+.iphone_group {
+background: url("http://www.extremetech.com/wp-content/uploads/2013/08/iphone-5s-black-champagne-grey.jpg");
+background-size: cover;
+float: left;
+width: 45%;
+}
+
+.android_group {
+background: url("http://techbeasts.com/wp-content/uploads/2013/08/Android1.jpg");
+background-size: cover;
+float: right;
+width: 45%;
+}
+
+.ipad_group {
+background: url("http://images.anandtech.com/reviews/tablets/apple/ipad4/DSC_2044.jpg");
+background-size: cover;
+clear: both;
+float: left;
+width: 45%;
+}
+
+.windows_group {
+background: url("http://www.blogcdn.com/www.engadget.com/media/2012/11/windows-phone-8-event-ballmer-and-phones.jpg");
+background-size: cover;
+float: right;
+width: 45%;
+}
+
+.license {
+	clear: both;
+	position: relative;
+
+	h3 {
+		text-align: right;
+	}
+	a {
+	color: black;
+}
+}
+button {
+	background: rgba(208,208,208, 0.5);
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.about {
+	clear: both;
+	h2 {
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 2em;
+		text-align: center;
+	}	
+	p {
+		background: none;
+		color: black;
+		font-size: 1em;
+		position: relative;
+	}
+}
+#games {
+	p {
+		background: none;
+		color: black;
+		font-size: 1em;
+		position: relative;
+	}
+}
+.games_table table * {
+	border: 2px solid black;
+
+
+}

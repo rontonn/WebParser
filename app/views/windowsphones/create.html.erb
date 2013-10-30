@@ -1,27 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <link type="text/css" href="app\assets\stylesheets\homepage.css.scss" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
 <h1>Listing Top WindowsPhone games</h1>
  
-<table>
-  <tr>
-    <th>Rank</th>
-    <th>Title</th>
-    <th>Downloads</th>
-    <th>Price</th>
-    <th>Comments</th>
-  </tr>
+ <div class="games_table">
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Title</th>
+        <th>Downloads</th>
+        <th>Price</th>
+        <th>Comments</th>
+      </tr>
  
-  <% @windowsphone.each do |g| %>
-    <tr>
-      <td><%= g.rank %></td>
-      <td><%= g.title %></td>
-      <td><%= g.downloads %></td>
-      <td><%= g.price %></td>
-      <td><%= g.comments %></td>
-    </tr>
-  <% end %>
-</table>
-<p>
-<%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %>
-</p>
-<p>
-<%= link_to "Back to WebParser for WindowsPhone games", wingames_path, class: "btn btn-large btn-primary" %>
-</p>
+      <% @windowsphone.each do |g| %>
+      <tr>
+          <td><%=g.rank %></td>
+          <td><%=g.title %></td>
+          <td><%=g.downloads %></td>
+          <td><%=g.price %></td>
+          <td><%=g.comments %></td>
+      </tr>
+      <% end %>
+    </table>
+
+    <div class="license">
+      <h4>All rigths reserved to Anton Romanov(c)</h4>
+      <h3>
+        <button><%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %></button>
+        <button><%= link_to "Back to WebParser for WindowsPhone games", wingames_path, class: "btn btn-large btn-primary" %></button>
+      </h3>
+  </div>
+
+  </div>
+
+</body>
