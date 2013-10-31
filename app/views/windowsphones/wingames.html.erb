@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <head>
   <link type="text/css" href="app\assets\stylesheets\homepage.css.scss" rel="stylesheet" />
-  <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<h1>WebParser for WindowsPhone games!</h1>
+  <h1>WebParser for WindowsPhone games!</h1>
 
-	<div id="games">
-	<p>
-  		The pre-defined algorithm will  be launched if you press the button below.
-	</p>
+  <div id="games">
+  <p>
+      The pre-defined algorithm will  be launched if you press the button below.
+  </p>
 
- 	<%= form_for :windowsphone, url: windowsphones_path do |f| %>
+  <%= form_for :windowsphone, url: windowsphones_path do |f| %>
 
     <p>
-      	<%= f.submit "WebParsing for WindowsPhone games", class: "btn btn-large btn-primary"%>
-   	</p>
-  	<% end %>
-  	</div>
+        <%= f.submit "WebParsing for WindowsPhone games", class: "btn-custom btn-small btn-primary" %>
+    </p>
+    <% end %>
+    </div>
 
-	<div class="license">
-		<h4>All rigths reserved to Anton Romanov(c)</h4>
-  		<h3>
-    		<button><%= link_to "Back to the HomePage", home_path, class: "btn btn-large btn-primary" %></button>
-  		</h3>
-	</div>
+    <div class="license">
+        <h3>
+        <%= link_to "Back to Homepage!", home_path, class: "btn-custom btn-small btn-primary" %>
+        </h3>
+    </div>
+
 </body>
