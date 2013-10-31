@@ -1,14 +1,17 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
   <link type="text/css" href="app\assets\stylesheets\homepage.css.scss" rel="stylesheet" />
-  <link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href="app\assets\bootstrap-3.0.0\dist\css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 
 <body>
 <h1>Listing Top WindowsPhone games</h1>
  
- <div class="games_table">
+ <div class="table table-hover">
     <table>
       <tr>
         <th>Rank</th>
@@ -23,7 +26,7 @@
           <td><%= g.rank %></td>
           <td><%= g.title %></td>
           <td><%= g.downloads %></td>
-          <td><%= g.price %></td>
+          <td width="70"><%= g.price %></td>
           <td><%= g.comments %></td>
       </tr>
       <% end %>
@@ -36,6 +39,8 @@
         <%= link_to "Back to WebParser for WindowsPhone games", wingames_path, class: "btn-custom btn-small btn-primary" %>
         </h3>
     </div>
-
-  </div>
+    </div>
+    
+<script src="app\assets\bootstrap-3.0.0\dist\js\bootstrap.min.js"></script>
 </body>
+</html>

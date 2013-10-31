@@ -3,14 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap";
 body {
-  font-family: 'Montaga', serif;
-  background: #232323;
+  font-family: 'Droid Sans', sans-serif;
+  background: #545454;
   margin: 0 auto;
   max-width: 40em; 
 }
 
+.mainpage {
+  background: linear-gradient(top, rgba(0,0,0,.9), rgba(0,0,0,.6));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,.9), rgba(0,0,0,.6));
+  background: -moz-linear-gradient(top, rgba(0,0,0,.9), rgba(0,0,0,.6));
+}
 h1 {
-	font-family: 'Fenix', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 3em;
 	text-align: center;
 	color: rgba(224,224,224,1);
@@ -100,7 +105,6 @@ background-size: cover;
 	clear: both;
 	position: relative;
 	h2 {
-		font-family: 'Fenix', serif;
 		font-size: 2em;
 		text-align: center;
 		color: rgba(255,255,255,0.6);
@@ -119,12 +123,7 @@ background-size: cover;
 		position: relative;
 	}
 }
-.games_table table * {
-	border: 1px solid  #C0C0C0;
-	text-align: center;
-	color: #B0B0B0;
-	padding: 5px;
-}
+
 
 @media (max-width: 40em) {
   h1 {
@@ -167,3 +166,11 @@ background-size: cover;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
   -webkit-font-smoothing: antialiased;
 }
+
+.table table * {
+  text-align: justify;
+  text-align: center;
+  color: black;
+  padding: 3px;
+  background: #838B8B;
+  }
