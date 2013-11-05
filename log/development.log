@@ -1,0 +1,24 @@
+  [1m[36m (5.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (4.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateIphones (20131008185937)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (13.0ms)[0m  [1mCREATE TABLE "iphones" ("id" serial primary key, "rank" integer, "title" character varying(255), "downloads" character varying(255), "price" character varying(255), "comments" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131008185937"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateAndroids (20131008191248)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "androids" ("id" serial primary key, "rank" integer, "title" character varying(255), "downloads" character varying(255), "price" character varying(255), "comments" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131008191248"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateIpads (20131008212601)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (11.0ms)[0m  [1mCREATE TABLE "ipads" ("id" serial primary key, "rank" integer, "title" character varying(255), "downloads" character varying(255), "price" character varying(255), "comments" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131008212601"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateWindowsphones (20131008214202)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "windowsphones" ("id" serial primary key, "rank" integer, "title" character varying(255), "downloads" character varying(255), "price" character varying(255), "comments" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131008214202"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
