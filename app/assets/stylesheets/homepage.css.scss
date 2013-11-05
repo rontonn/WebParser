@@ -6,7 +6,8 @@ body {
   font-family: 'Droid Sans', sans-serif;
   background: #545454;
   margin: 0 auto;
-  max-width: 40em; 
+  max-width: 40em;
+
 }
 
 .mainpage {
@@ -27,7 +28,7 @@ span {
 }
 
 div {
-  	height: 220px;
+    height: 250px;	
   	position: relative;
   	border-radius: 12px;
   	margin: 40px 0 0 0;
@@ -35,6 +36,7 @@ div {
 
 small {
   opacity: 0;
+
 }
 
 p {
@@ -49,8 +51,9 @@ p {
   	position: absolute;
   	bottom: 0;
   	margin: 0;
-  	width: 38em;
-  	height:30px;
+    width:38em;
+    height:30px;
+  	
 
   	transition: height .5s;
   	-webkit-transition: height .5s;
@@ -58,7 +61,7 @@ p {
 }
 
 .show-description p {
-  height: 90px;
+  height: 120px;
 }
 
 .show-description small {
@@ -76,6 +79,7 @@ background: url("http://techbeasts.com/wp-content/uploads/2013/08/Android1.jpg")
 background-size: cover;
 }
 
+
 .ipad_group {
 background: url("http://www.pinkybolar.com/wp-content/uploads/2013/06/ipad_mini_black_white-2.jpg");
 background-size: cover;
@@ -88,10 +92,8 @@ background-size: cover;
 }
 
 .license {
-	position: realative;
 	margin: 100px 0 0 0;
 	h3 {
-		text-align: right;
 		float: right;
 		margin: 0 0 0 50px;
 	}
@@ -102,8 +104,6 @@ background-size: cover;
 }
 
 .about {
-	clear: both;
-	position: relative;
 	h2 {
 		font-size: 2em;
 		text-align: center;

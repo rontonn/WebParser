@@ -4,6 +4,7 @@ ruby "2.0.0"
 gem 'rails', '4.0.0'
 gem 'nokogiri'
 gem 'bootstrap-sass'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -25,6 +26,8 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+gem 'sinatra'
+gem 'taps'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
