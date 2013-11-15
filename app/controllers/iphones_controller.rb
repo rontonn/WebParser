@@ -13,7 +13,7 @@ require 'open-uri'
 
 		@iphone.rank = 1
 		@iphone.title = page.css("div.titleCont h2")[0].text.gsub(regex2,' ')
-		@iphone.downloads = page.css("div.extraInfo.mobile-hide span.downNo")[0].text.gsub(regex2,' ')
+		@iphone.downloads = page.css("div.extraInfo span.downNo")[0].text.gsub(regex2,' ')
 		@iphone.price = page.css("div.appInfoCont strong.price")[0].text.gsub(regex2,' ')
 
 		array = ""
@@ -32,7 +32,7 @@ require 'open-uri'
 
 		@iphone.rank = i-1
 		@iphone.title = page.css("div.titleCont h2")[i].text.gsub(regex2,' ')
-		@iphone.downloads = page.css("div.extraInfo.mobile-hide span.downNo")[i].text.gsub(regex2,' ')
+		@iphone.downloads = page.css("div.extraInfo span.downNo")[i].text.gsub(regex2,' ')
 		@iphone.price = page.css("div.appInfoCont strong.price")[i].text.gsub(regex2,' ')
 		
 		array = ""

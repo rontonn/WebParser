@@ -173,3 +173,1322 @@ ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap/js
   Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
   Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (105.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#home as HTML
+  Rendered homepage/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 176ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/androids.css?body=1" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+
+Started GET "/assets/ipads.css?body=1" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+
+Started GET "/assets/windowsphones.css?body=1" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+
+Started GET "/assets/iphones.css?body=1" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+
+Started GET "/app/assets/stylesheets/homepage.css.scss" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/homepage.css.scss"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (109.0ms)
+
+
+Started GET "/app/assets/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2013-11-15 16:24:33 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (94.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/androids.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/iphones.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/ipads.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/windowsphones.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+
+Started GET "/app/assets/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2013-11-15 16:24:34 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (97.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 18:17:05 +0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#home as HTML
+  Rendered homepage/home.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 1010ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/theme.
+Load paths:
+  C:/Users/Anton/Desktop/WebParser/app/assets/images
+  C:/Users/Anton/Desktop/WebParser/app/assets/javascripts
+  C:/Users/Anton/Desktop/WebParser/app/assets/stylesheets
+  C:/Users/Anton/Desktop/WebParser/vendor/assets/javascripts
+  C:/Users/Anton/Desktop/WebParser/vendor/assets/stylesheets
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/turbolinks-1.3.0/lib/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/jquery-rails-3.0.4/vendor/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/images
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets
+  C:/Users/Anton/Desktop/vendor/assets/stylesheets
+  (in C:/Users/Anton/Desktop/WebParser/app/assets/stylesheets/homepage.css.scss:5)):
+    2: <html>
+    3: <head>
+    4:   <title>WebParser</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/homepage.css.scss:5
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__610856055_21892164'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 18:18:02 +0400
+Processing by HomepageController#home as HTML
+  Rendered homepage/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 903ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/theme.
+Load paths:
+  C:/Users/Anton/Desktop/WebParser/app/assets/images
+  C:/Users/Anton/Desktop/WebParser/app/assets/javascripts
+  C:/Users/Anton/Desktop/WebParser/app/assets/stylesheets
+  C:/Users/Anton/Desktop/WebParser/vendor/assets/javascripts
+  C:/Users/Anton/Desktop/WebParser/vendor/assets/stylesheets
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/turbolinks-1.3.0/lib/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/jquery-rails-3.0.4/vendor/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/images
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets
+  C:/Users/Anton/Desktop/vendor/assets/stylesheets
+  (in C:/Users/Anton/Desktop/WebParser/app/assets/stylesheets/homepage.css.scss:5)):
+    2: <html>
+    3: <head>
+    4:   <title>WebParser</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/homepage.css.scss:5
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__610856055_21892164'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 18:20:52 +0400
+Processing by HomepageController#home as HTML
+  Rendered homepage/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 885ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/theme.
+Load paths:
+  C:/Users/Anton/Desktop/WebParser/app/assets/images
+  C:/Users/Anton/Desktop/WebParser/app/assets/javascripts
+  C:/Users/Anton/Desktop/WebParser/app/assets/stylesheets
+  C:/Users/Anton/Desktop/WebParser/vendor/assets/javascripts
+  C:/Users/Anton/Desktop/WebParser/vendor/assets/stylesheets
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/turbolinks-1.3.0/lib/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/jquery-rails-3.0.4/vendor/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/images
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/javascripts
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets
+  C:/Users/Anton/Desktop/vendor/assets/stylesheets
+  (in C:/Users/Anton/Desktop/WebParser/app/assets/stylesheets/homepage.css.scss:5)):
+    2: <html>
+    3: <head>
+    4:   <title>WebParser</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/homepage.css.scss:5
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__610856055_21892164'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 18:24:19 +0400
+Processing by HomepageController#home as HTML
+  Rendered homepage/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2777ms (Views: 2776.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/androids.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/iphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/ipads.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/windowsphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:22 +0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/androids.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/homepage.css.scss" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/ipads.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/iphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/windowsphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:23 +0400
+
+
+Started GET "/igames" for 127.0.0.1 at 2013-11-15 18:24:28 +0400
+Processing by IphonesController#igames as HTML
+  Rendered iphones/igames.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/igames" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+Processing by IphonesController#igames as HTML
+  Rendered iphones/igames.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/iphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/windowsphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/androids.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/ipads.css?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/androids.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/app/assets/stylesheets/homepage.css.scss" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/homepage.css.scss"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (110.0ms)
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (92.0ms)
+
+
+Started GET "/assets/iphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/ipads.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/windowsphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js" for 127.0.0.1 at 2013-11-15 18:24:29 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (109.0ms)
+
+
+Started POST "/iphones" for 127.0.0.1 at 2013-11-15 18:24:31 +0400
+Processing by IphonesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tx4ZIaCf+TQUwq9+ruqBl2lfJHKnx4NDT1MaQYAe8iw=", "commit"=>"WebParsing for Iphone games"}
+  [1m[35m (33.0ms)[0m  SELECT COUNT(*) FROM "iphones"
+Completed 500 Internal Server Error in 2807ms
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  app/controllers/iphones_controller.rb:16:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.0ms)
+
+
+Started POST "/iphones" for 127.0.0.1 at 2013-11-15 18:33:34 +0400
+Processing by IphonesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tx4ZIaCf+TQUwq9+ruqBl2lfJHKnx4NDT1MaQYAe8iw=", "commit"=>"WebParsing for Iphone games"}
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "iphones"[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (95.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Great App; Iritating Ads!; "], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "20,200,000"], ["price", " Free "], ["rank", 1], ["title", "Deer Hunter 2014"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[35m (3.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Great App; Fun & Addictive"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "9,660,000"], ["price", " 6.99 $ "], ["rank", 2], ["title", "Minecraft – Pocket Edition"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Needs More Features; Fun & Addictive; Great App"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "109,000,000"], ["price", " Free "], ["rank", 3], ["title", "Clash of Clans"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Great App; Fun & Addictive"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "964,000"], ["price", " 0.99 $ "], ["rank", 4], ["title", "Pixel Gun 3D - Block World Pocket Survival Shooter with Skins Maker for minecraft (PC edition) & Multiplayer"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Needs Work; Fun Game"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "15,100,000"], ["price", " Free "], ["rank", 5], ["title", "Airplane!"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[35m (14.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Fun & Addictive; Fun Game; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "15,500,000"], ["price", " 0.99 $ "], ["rank", 6], ["title", "Clear Vision (17+)"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[36m (4.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Great App; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "64,700,000"], ["price", " Free "], ["rank", 7], ["title", "Despicable Me: Minion Rush"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[35m (14.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Keeps Crashing; Fun Game; I'm Stuck and Frustrated"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "1,560,000"], ["price", " 6.99 $ "], ["rank", 8], ["title", "Infinity Blade III"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[36m (21.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun and Challenging; Fun & Addictive; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "17,800,000"], ["price", " Free "], ["rank", 9], ["title", "Can You Escape"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[35m (4.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Keeps Crashing; Fun Game"], ["created_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00], ["downloads", "1,300,000"], ["price", " 4.99 $ "], ["rank", 10], ["title", "Terraria"], ["updated_at", Fri, 15 Nov 2013 14:33:35 UTC +00:00]]
+  [1m[36m (14.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIphone Load (1.0ms)[0m  SELECT "iphones".* FROM "iphones"
+  Rendered iphones/create.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1526ms (Views: 54.0ms | ActiveRecord: 180.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:35 +0400
+
+
+Started GET "/assets/androids.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:35 +0400
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:35 +0400
+
+
+Started GET "/assets/iphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/ipads.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/windowsphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/androids.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/app/assets/stylesheets/homepage.css.scss" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/homepage.css.scss"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (93.0ms)
+
+
+Started GET "/assets/ipads.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (92.0ms)
+
+
+Started GET "/assets/iphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/windowsphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js" for 127.0.0.1 at 2013-11-15 18:33:36 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (93.0ms)
+
+
+Started POST "/iphones" for 127.0.0.1 at 2013-11-15 18:36:14 +0400
+Processing by IphonesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tx4ZIaCf+TQUwq9+ruqBl2lfJHKnx4NDT1MaQYAe8iw=", "commit"=>"WebParsing for Iphone games"}
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "iphones"[0m
+  [1m[35mIphone Load (1.0ms)[0m  SELECT "iphones".* FROM "iphones"
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (135.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 1]]
+  [1m[36m (17.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 2]]
+  [1m[35m (14.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 3]]
+  [1m[36m (13.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 4]]
+  [1m[35m (13.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 5]]
+  [1m[36m (14.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 6]]
+  [1m[35m (14.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 7]]
+  [1m[36m (17.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 8]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 9]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 10]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Fun & Addictive; Great App; Iritating Ads!; "], ["created_at", Fri, 15 Nov 2013 14:36:16 UTC +00:00], ["downloads", "20,200,000"], ["price", " Free "], ["rank", 1], ["title", "Deer Hunter 2014"], ["updated_at", Fri, 15 Nov 2013 14:36:16 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Needs More Features; Great App; Fun & Addictive"], ["created_at", Fri, 15 Nov 2013 14:36:16 UTC +00:00], ["downloads", "9,660,000"], ["price", " 6.99 $ "], ["rank", 2], ["title", "Minecraft – Pocket Edition"], ["updated_at", Fri, 15 Nov 2013 14:36:16 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Fun & Addictive; Great App"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "109,000,000"], ["price", " Free "], ["rank", 3], ["title", "Clash of Clans"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Needs More Features; Great App; Fun & Addictive"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "964,000"], ["price", " 0.99 $ "], ["rank", 4], ["title", "Pixel Gun 3D - Block World Pocket Survival Shooter with Skins Maker for minecraft (PC edition) & Multiplayer"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Fun & Addictive; Needs Work; Fun Game"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "15,100,000"], ["price", " Free "], ["rank", 5], ["title", "Airplane!"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Fun Game; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "15,500,000"], ["price", " 0.99 $ "], ["rank", 6], ["title", "Clear Vision (17+)"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Fun & Addictive; Great App; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "64,700,000"], ["price", " Free "], ["rank", 7], ["title", "Despicable Me: Minion Rush"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Keeps Crashing; Fun Game; I'm Stuck and Frustrated"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "1,560,000"], ["price", " 6.99 $ "], ["rank", 8], ["title", "Infinity Blade III"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Fun and Challenging; Fun & Addictive; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "17,800,000"], ["price", " Free "], ["rank", 9], ["title", "Can You Escape"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Needs More Features; Keeps Crashing; Fun Game"], ["created_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00], ["downloads", "1,300,000"], ["price", " 4.99 $ "], ["rank", 10], ["title", "Terraria"], ["updated_at", Fri, 15 Nov 2013 14:36:17 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36mIphone Load (0.0ms)[0m  [1mSELECT "iphones".* FROM "iphones"[0m
+  Rendered iphones/create.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 3864ms (Views: 1189.1ms | ActiveRecord: 255.0ms)
+
+
+Started GET "/assets/androids.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/ipads.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/iphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/windowsphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/androids.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/app/assets/stylesheets/homepage.css.scss" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/homepage.css.scss"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (21.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (108.0ms)
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (92.0ms)
+
+
+Started GET "/assets/ipads.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/iphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/windowsphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js" for 127.0.0.1 at 2013-11-15 18:36:18 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (92.0ms)
+
+
+Started POST "/iphones" for 127.0.0.1 at 2013-11-15 18:36:31 +0400
+Processing by IphonesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tx4ZIaCf+TQUwq9+ruqBl2lfJHKnx4NDT1MaQYAe8iw=", "commit"=>"WebParsing for Iphone games"}
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "iphones"
+  [1m[36mIphone Load (0.0ms)[0m  [1mSELECT "iphones".* FROM "iphones"[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 11]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 12]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 13]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 14]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 15]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 16]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 17]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 18]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "iphones" WHERE "iphones"."id" = $1[0m  [["id", 19]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "iphones" WHERE "iphones"."id" = $1  [["id", 20]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Great App; Iritating Ads!; "], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "20,200,000"], ["price", " Free "], ["rank", 1], ["title", "Deer Hunter 2014"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Great App; Fun & Addictive"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "9,660,000"], ["price", " 6.99 $ "], ["rank", 2], ["title", "Minecraft – Pocket Edition"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Needs More Features; Fun & Addictive; Great App"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "109,000,000"], ["price", " Free "], ["rank", 3], ["title", "Clash of Clans"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Great App; Fun & Addictive"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "964,000"], ["price", " 0.99 $ "], ["rank", 4], ["title", "Pixel Gun 3D - Block World Pocket Survival Shooter with Skins Maker for minecraft (PC edition) & Multiplayer"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Needs Work; Fun Game"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "15,100,000"], ["price", " Free "], ["rank", 5], ["title", "Airplane!"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Fun & Addictive; Fun Game; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "15,500,000"], ["price", " 0.99 $ "], ["rank", 6], ["title", "Clear Vision (17+)"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun & Addictive; Great App; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "64,700,000"], ["price", " Free "], ["rank", 7], ["title", "Despicable Me: Minion Rush"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Keeps Crashing; Fun Game; I'm Stuck and Frustrated"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "1,560,000"], ["price", " 6.99 $ "], ["rank", 8], ["title", "Infinity Blade III"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["comments", "Fun and Challenging; Fun & Addictive; Needs More Features"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "17,800,000"], ["price", " Free "], ["rank", 9], ["title", "Can You Escape"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "iphones" ("comments", "created_at", "downloads", "price", "rank", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["comments", "Needs More Features; Keeps Crashing; Fun Game"], ["created_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00], ["downloads", "1,300,000"], ["price", " 4.99 $ "], ["rank", 10], ["title", "Terraria"], ["updated_at", Fri, 15 Nov 2013 14:36:32 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIphone Load (0.0ms)[0m  SELECT "iphones".* FROM "iphones"
+  Rendered iphones/create.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2161ms (Views: 1182.1ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/iphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/ipads.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/androids.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/windowsphones.css?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/androids.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/ipads.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/app/assets/stylesheets/homepage.css.scss" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/homepage.css.scss"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (91.0ms)
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/css/bootstrap.min.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (96.0ms)
+
+
+Started GET "/assets/iphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/assets/windowsphones.js?body=1" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+
+Started GET "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js" for 127.0.0.1 at 2013-11-15 18:36:34 +0400
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap-3.0.0/dist/js/bootstrap.min.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (93.0ms)

@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap";
+
 body {
   font-family: 'Droid Sans', sans-serif;
   background: #545454;
@@ -173,4 +174,5 @@ background-size: cover;
   color: black;
   padding: 3px;
   background: #838B8B;
+  width: 45em;
   }
